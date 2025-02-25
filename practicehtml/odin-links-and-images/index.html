@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <!-- To create a link in HTML, we use the anchor element. 
+     An anchor element is defined by wrapping the text
+      or another HTML element we want to be a link with an <a> tag. -->
+    <p>this one opens in the tab</p>
+    <a href="https://www.theodinproject.com/about">About The Odin Project</a>
+    
+    <!-- when href specifies destination link
+     target specifies where it will be opened
+     _self opens in current tab
+     _blank opens in other tab -->
+
+    <p>this one opens in a new tab:</p>
+     <p><a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About The Odin Project</a></p>
+
+     <!--  rel=”noopener”: prevents
+     the new tab from accessing the original page, ensuring security. -->
+     <!-- By using rel=”noreferrer”, you automatically get the benefits of 
+    both privacy and security. -->
+    <p>image of a dog:</p>
+    <img src="./images/dog.jpg" alt="DOGGER MCDOGGINGTON" height="430" width="310">
+
+    <p>relative link of about page in website</p>
+    <a href="./pages/about.html">About</a>
+    <!-- prepend ./ before the path is good practice -->
+
+
+    <h3>some random notes:</h3>
+    <p>absolute links: links to other websites, scheme://domain/path</p>
+    <p>relative links: links to other pages WITHIN the website, only includes filepath</p>
+    <p>use &lt;img&gt; tag for images. its a void element </p>
+</body>
+</html>
