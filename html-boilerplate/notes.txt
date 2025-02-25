@@ -1,0 +1,4 @@
+typing "!" and enter in vscode on a .html file
+will make the boilerplate for you by default
+
+finish the assignment by watching the vid

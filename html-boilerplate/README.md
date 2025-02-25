@@ -1,3 +1,3 @@
-# TOP_stuff
+# boilerplate
 
-practicing git using TOP... this thing is pretty wicked
+making sth using html IG
