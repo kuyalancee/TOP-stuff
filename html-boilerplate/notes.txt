@@ -2,3 +2,9 @@ typing "!" and enter in vscode on a .html file
 will make the boilerplate for you by default
 
 finish the assignment by watching the vid
+
+ctrl + / will type out a comment bracket
+typing "lorem" then enter will enter dummy text
+
+to open html file, drag it to chrome or type in terminal
+"google-chrome [filename.html]"
