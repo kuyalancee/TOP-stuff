@@ -8,3 +8,5 @@ typing "lorem" then enter will enter dummy text
 
 to open html file, drag it to chrome or type in terminal
 "google-chrome [filename.html]"
+
+deleted the readme.md file inside this dir
