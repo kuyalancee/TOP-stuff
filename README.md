@@ -1,12 +1,11 @@
 # TOP_stuff
 
-indeed
+TOP journey, start 2/24/25, going strong copege
 
-## what is this?
+## What is this?
 
-using the odin project to practice html css js
-wicked
+Using The Odin Project to learn and practice HTML, CSS, and JavaScript
 
-## why is this?
+## Why is this?
 
-also for git practice
+Putting this on GitHub to also practice using Git
