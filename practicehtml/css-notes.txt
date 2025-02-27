@@ -1,0 +1,4 @@
+use "." for class
+use "#" for id
+one thing can have many classes types
+one thing can only have one id type
