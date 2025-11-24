@@ -1,3 +1,4 @@
+//  function to get computer choice
 let getComputerChoice = () => {
     let rand = Math.random();
     if (rand >= 0.66) {
@@ -9,15 +10,15 @@ let getComputerChoice = () => {
     }
 }
 
+//  gets human choice
 let getHumanChoice = () => {
     let choice = prompt("rock, paper, or scissors?");
     return choice;
 }
 
-let humanScore = 0, computerScore = 0;
-
+//  function to play rounds
 let playRound = (humanChoice, computerChoice) => {
-    const human = humanChoice.toLowerCase();
+    const human = (humanChoice || "").toLowerCase();
     const computer = computerChoice.toLowerCase();
 
     if (human === computer) {
@@ -35,14 +36,20 @@ let playRound = (humanChoice, computerChoice) => {
     }
 }
 
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
+//  global score vars
+let humanScore = 0, computerScore = 0;
 
-//playRound(humanSelection, computerSelection);
-
-for (let i = 0; i < 5; i++) {
-    playRound(humanSelection, computerSelection);
+//  Main loop function to play 5 games
+function playGame() {
+    console.log("Hi! there will be 5 rock, paper, scissor rounds!\n")
+    for(let i = 0; i < 5; i++){
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+        playRound(humanSelection, computerSelection);
+    }
+    console.log(`The final scores are:\n
+        Human: ${humanScore}\n
+        Computer: ${computerScore}`);
 }
 
-
-//console.log(getComputerChoice());
+playGame();
